@@ -1,0 +1,41 @@
+
+.text-align{
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center; /* Yatay eksende merkezler */
+    align-items: center; /* Dikey eksende merkezler */
+    height: 100px; 
+    background-color: #FFE4C9; 
+    flex-direction: column;
+    color:#f0f0f0;
+}
+
+.list-center{
+    list-style-position: inside;
+    text-align: center
+
+}
+h1{
+    color: #7F27FF;
+
+}
+h2{
+   color: #9F70FD;
+}
+h3{
+    color: #FDBF60;
+}
